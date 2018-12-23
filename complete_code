@@ -18,7 +18,7 @@ def login(username='账号',password='密码',domain='Unicom'):     #要输入�
         print('error')
 
 #下面输入你的账号密码，运营商：移动CMCC 联通Unicom 电信ChinaNet
-dic=login('18362086320','666999','cmcc') 
+dic=login('18362086320','666999','cmcc') #这是我的账号密码
 for i in list(dic.keys()):             
     if dic[i]:
         print(i+":"+str(dic[i]))   #输出登陆信息，成功与否
